@@ -27,7 +27,3 @@ Diagnosis: Nginx was running and `curl localhost` returned 200 OK, but `ufw stat
 Fix:`sudo ufw allow 80`
 Lesson: a service can be healthy while the firewall blocks it
 
-Screenshots
-![Nginx running](nginx-status.png)
-![UFW status](ufw-status.png)
-![Cron backup log](backup-log.png)
